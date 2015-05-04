@@ -1,0 +1,70 @@
+/*-------------Header navigation-----------------*/
+.nav li{
+	display: inline;
+}
+
+/*Properties of the navigation bar*/
+.nav a {
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 14px 10px;
+}
+
+.nav .container #footer-home {
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+.nav a:visited {
+	color: black;
+}
+
+.nav a:hover {
+	color: #339999;
+}
+
+/*---------------------Main chunk of the page contents------------------------------*/
+.jumbotron {
+	background-image: url('http://goo.gl/0rdJOK');
+	height: 367px;
+	width: 485px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 100px;
+	margin: auto;
+}
+.jumbotron h2{
+	color: #fff;
+	font-size: 48px;
+	font-family: Arial;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*-------------For the bottom of the page navigation-----------------*/
+
+#footer-home li{
+	display: inline-block;
+}
+
+/*Homepage button (Name)*/
+#footer-home {
+	font-size: 24px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+/*Information about me*/
+#about-footer {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: auto;
+}
